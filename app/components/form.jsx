@@ -1,10 +1,12 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { contactMeText } from "../data/data";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 
 const ContactForm = () => {
   const form = useRef();
+  const [showModal, setShowModal] = useState(false);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -19,6 +21,11 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setShowModal(true);
+          setTimeout(() => {
+            setShowModal(false); // Hide the modal after 2 seconds
+            window.location.href = "/"; // Redirect the user to the home page
+          }, 2000);
         },
         (error) => {
           console.log(error.text);
@@ -28,6 +35,20 @@ const ContactForm = () => {
 
   return (
     <div className="mx-auto max-w-2xl p-4 mt-8 mb-20 flex sm:flex-row flex-col bg-grey">
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal-content animation show">
+            <Image
+              src="/images/tickicon.png"
+              width={20}
+              height={20}
+              alt="tick-icon"
+            />
+            <p className="modal-message">Email is sent.</p>
+          </div>
+        </div>
+      )}
+
       <div className="text-start ml-1 mr-4 p-2 ">
         <h3 className="mb-5 font-semibold text-xl sm:text-2xl">
           {contactMeText.title}
