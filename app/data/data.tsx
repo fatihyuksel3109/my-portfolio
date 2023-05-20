@@ -119,6 +119,24 @@ export const projects = [
       },
     ],
   },
+
+  {
+    title: "Pomodoro App",
+    body1:
+      "Pomodoro Timer is designed to help you manage your time effectively and boost your productivity using the popular Pomodoro Technique. With Pomodoro Timer, you'll unleash your productivity potential and conquer your tasks with ease. Seeking better time management ? This app will help you stay focused, organized, and on track. ",
+    body2: "Technologies used: HTML, CSS, and JavaScript Features.",
+    image: "pomodoro.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/fatihyuksel3109/pomodoro-app",
+      },
+      {
+        text: "Live Site",
+        url: "https://fatihyuksel3109.github.io/pomodoro-app/",
+      },
+    ],
+  },
 ];
 
 export const contactMeLinks = [
