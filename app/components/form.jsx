@@ -1,22 +1,34 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
 import { contactMeText } from "../data/data";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  async function handleSubmit(event) {
+  const form = useRef();
+
+  function handleSubmit(event) {
     event.preventDefault();
 
-    const data = {
-      name: String(event.target.name.value),
-      email: String(event.target.email.value),
-      phone: String(event.target.phone.value),
-      message: String(event.target.message.value),
-    };
-    clg
+    emailjs
+      .sendForm(
+        "service_of09ivk",
+        "template_vndwqao",
+        form.current,
+        "QnQU-Px75h_HHVEOj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   }
 
   return (
-    <div className="mx-auto max-w-2xl p-6 mt-8 mb-20 flex sm:flex-row flex-col bg-grey-light">
-      <div className="text-start mr-5 p-2 ">
+    <div className="mx-auto max-w-2xl p-4 mt-8 mb-20 flex sm:flex-row flex-col bg-grey">
+      <div className="text-start ml-1 mr-4 p-2 ">
         <h3 className="mb-5 font-semibold text-xl sm:text-2xl">
           {contactMeText.title}
         </h3>
@@ -24,23 +36,40 @@ const ContactForm = () => {
           {contactMeText.body}
         </p>
       </div>
-      <div className="ml-5">
-        <h3 className="mb-5 font-semibold text-2xl">Contact Me!</h3>
-        <form className="mb-5 font-medium text-xl">
-          <div className="w-full p-2 flex flex-col my-2">
+      <div className="ml-5 bg-white py-2 px-7 flex-1">
+        <h3 className="mb-5 font-semibold text-2xl">Contact me!</h3>
+        <form
+          ref={form}
+          onSubmit={handleSubmit}
+          className="mb-5 font-medium text-lg"
+        >
+          <div className="w-full p-1 flex flex-col my-2">
             <label htmlFor="name"></label>
             <input
-              className="p-1"
+              name="name"
+              className="p-1 bg-grey"
               required
               type="text"
               id="name"
               placeholder="Your Name..."
             />
           </div>
-          <div className="w-full p-2 flex flex-col my-2">
+          <div className="w-full p-1 flex flex-col my-2">
+            <label htmlFor="lastname"></label>
+            <input
+              name="lastname"
+              className="p-1 bg-grey"
+              required
+              type="text"
+              id="lastname"
+              placeholder="Your Lastname..."
+            />
+          </div>
+          <div className="w-full p-1 flex flex-col my-2">
             <label htmlFor="email"></label>
             <input
-              className="p-1"
+              name="email"
+              className="p-1 bg-grey"
               required
               type="email"
               id="email"
@@ -48,30 +77,18 @@ const ContactForm = () => {
               minLength={5}
             />
           </div>
-          <div className="w-full p-2 flex flex-col my-2">
-            <label htmlFor="phone"></label>
-            <input
-              className="p-1"
-              required
-              type="phone"
-              id="phone"
-              placeholder="Your Phone Number..."
-              minLength={11}
-            />
-          </div>
-          <div className=" p-2">
-            <label htmlFor="message"></label>
+          <div className=" p-1">
             <textarea
               required
-              className="w-full"
+              className="w-full bg-grey"
               name="message"
-              rows={5}
+              rows={6}
               placeholder="Please Enter Your Message..."
               minLength={10}
               maxLength={500}
             />
           </div>
-          <div className="p-2">
+          <div className="p-1">
             <button
               type="submit"
               className="px-4 py-1 bg-blue text-white font-medium"
