@@ -6,11 +6,16 @@ export const pages = [
   },
   {
     id: 2,
+    label: "My Resume",
+    link: "/resume",
+  },
+  {
+    id: 3,
     label: "My Projects",
     link: "/my-projects",
   },
   {
-    id: 3,
+    id: 4,
     label: "Contact Me",
     link: "/contact-me",
   },
@@ -19,11 +24,59 @@ export const pages = [
 export const aboutMeData = {
   name: "Fatih Yuksel",
   title: "Hello! I'm Fatih Yuksel",
-  body: "A passionate Front-End Developer who loves to solve problems using code. A few years ago, I embarked on a journey into the fascinating world of software development. Since then, I have been on a constant quest to expand my knowledge and enhance my skills. Although my background is in engineering, I am always on the lookout for opportunities to explore new technologies and learn new things.",
+  body: "A passionate Front-End Developer who loves to solve problems using code. A few years ago, I embarked on a journey into the fascinating world of software development. Since then, I have been on a constant quest to expand my knowledge and enhance my skills. Although my background is in engineering, I am always on the lookout for opportunities to explore new technologies and learn new things. With a high experience in frontend development, I have a deep understanding of the React ecosystem and its core principles. I am adept at translating design concepts into scalable and efficient code, resulting in seamless user experiences.",
   highlightedBody:
     "As someone who is relatively new to the field, I am always seeking new challenges and projects to work on. I have a keen interest in web development, machine learning, and game development. In fact, I have successfully completed several personal projects in these areas. I believe that taking on new challenges and collaborating with others not only helps me grow as a software engineer but also allows me to make a meaningful impact. I am always excited about the prospect of learning from and working with like-minded individuals.",
   body2:
     "When I'm not busy coding, I cherish spending quality time with my loved ones. Watching movies and playing video games are my go-to activities for relaxation and inspiration outside the realm of programming. I consider myself a lifelong learner and constantly seek out new books, tutorials, and courses to further improve my skills and broaden my knowledge. If you are curious to know more about my skills and experience, please feel free to take a look at my CV. I am always open to discussing potential opportunities to collaborate on exciting projects or even learn from each other's experiences.",
+};
+
+export const summaryData = {
+  title: "Summary",
+  description:
+    "Highly skilled and experienced Front-End Developer with a keen eye for detail and a passion for creating visually stunning and highly functional websites. Proficient in HTML, CSS, and JavaScript, and well-versed in popular front-end frameworks such as ReactJS and Angular. Collaborative team player who excels in working closely with designers, back-end developers, and project managers to seamlessly integrate design and functionality. A constant learner who stays up to date with the latest trends and advancements in front-end development. Committed to delivering exceptional user experiences and contributing to the success of web projects through meticulous attention to detail and a performance-driven approach.",
+};
+
+export const languageData = [
+  {
+    icon: "/images/icons/united-kingdom.png",
+    language: "English",
+    level: "C1",
+  },
+  {
+    icon: "/images/icons/france.png",
+    language: "French",
+    level: "B1",
+  },
+  {
+    icon: "/images/icons/german.png",
+    language: "German",
+    level: "A2",
+  },
+];
+
+export const experienceData = {
+  title: "Professional Experience",
+  experiences: [
+    {
+      role: "Front-End Developer, Freelance (2022-Present)",
+      description:
+        "As a freelance Front-End Developer, I have been responsible for designing and implementing custom front-end solutions for various clients. Leveraging my expertise in ReactJS and other modern web technologies, I collaborate closely with clients to understand their requirements and translate them into functional user interfaces. I design responsive and intuitive UI components, ensuring seamless user experiences across different devices and browsers. Additionally, I implement state management using Redux and handle routing with React Router. Thorough testing and debugging are integral parts of my workflow to maintain code quality and optimize performance. By delivering projects within deadlines, I provide ongoing support and maintenance to ensure client satisfaction.",
+      current: true,
+    },
+    {
+      role: "Real Estate Agent, Esra Real Estate (2018-2022)",
+      description:
+        "During my tenure as a Real Estate Agent at Esra Real Estate, I played a vital role in assisting clients with their property needs. I provided comprehensive guidance and support throughout the buying, selling, and renting processes. To facilitate effective decision-making, I conducted extensive market research and analysis, enabling clients to make informed choices. A key aspect of my role was building and maintaining strong relationships with clients, ensuring their satisfaction throughout the real estate transactions. I created impactful marketing materials and property listings to effectively showcase properties to potential buyers and renters. Negotiating contracts and coordinating property viewings were additional responsibilities, while also utilizing online platforms and tools to streamline property management tasks and enhance customer experiences.",
+      current: false,
+    },
+    {
+      role: "Product Manager, TAF (2014-2018)",
+      description:
+        "As a Product Manager at TAF, I spearheaded the development of various products from ideation to launch. Collaborating with cross-functional teams, including designers, developers, and marketing professionals, I translated market research insights into viable product strategies. Defining product requirements and creating detailed roadmaps were crucial aspects of my role. Prioritizing features and managing agile development processes ensured timely delivery. I conducted user testing and gathered feedback to continuously improve the products. Working closely with stakeholders, I defined go-to-market strategies and supported product adoption through effective communication and training. Monitoring product performance and conducting data analysis enabled data-driven decision-making for future iterations.",
+      current: false,
+    },
+  ],
 };
 
 export const contactMeText = {

@@ -18,7 +18,7 @@ const Skills = ({ data }) => {
           className={`btn ${setBg(el)} ${setTabsAlignment(el)} text-white text-[10]`}
           onClick={() => setActiveTab(el)}
         >
-          {el} Skills
+        <h3 className="font-semibold">{el} Skills</h3>  
         </button>
       ))}
     </div>
