@@ -8,12 +8,16 @@ import {
 } from "../data/data";
 import Image from "next/image";
 
+
 type ResumeProps = {
-  role: string;
-  description: string;
+  title : string;
+  experiences: {
+    role: string;
+    description: string;
+  }[];
 };
 
-const Page = ({ role, description }: ResumeProps) => {
+const Page = ({title, experiences}: ResumeProps) => {
   return (
     <div>
       <section className="flex flex-col sm:flex-row">
@@ -42,7 +46,7 @@ const Page = ({ role, description }: ResumeProps) => {
           </div>
         </div>
         <div className="max-w-600 sm:w-2/3 m-10">
-          <h2>Experiences</h2>
+          <h2>{experienceData.title} </h2>
           {experienceData.experiences.map((experience: any, index: any) => (
             <div className="w-full shadow-lg my-8 bg-blue-light p-10" key={index}>
               <h3 className="mb-4 font-semibold text-lg">{experience.role}</h3>
