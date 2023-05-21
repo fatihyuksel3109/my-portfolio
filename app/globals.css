@@ -54,7 +54,7 @@ section {
 }
 
 .btn {
-  @apply w-1/2 h-12 text-black hover:text-grey-light font-display uppercase text-xl px-4 transition ease-in-out  hover:bg-grey duration-200;
+  @apply w-1/2 h-12 text-black hover:text-grey-light font-display uppercase text-lg sm:text-xl px-4 transition ease-in-out  hover:bg-grey duration-200;
 }
 
 .skill {
