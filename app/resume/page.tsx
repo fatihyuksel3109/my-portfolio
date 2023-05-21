@@ -26,7 +26,7 @@ const Page = ({ role, description }: ResumeProps) => {
           <div className="p-5 bg-blue-light shadow-lg">
             <h2 className="mb-5">Languages</h2>
             {languageData.map((language, index) => (
-              <div className="flex flex-row my-4 font-semibold">
+              <div key={index} className="flex flex-row my-4 font-semibold">
                 <Image
                   src={language.icon}
                   width={24}
