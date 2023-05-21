@@ -41,12 +41,13 @@ export const skills = {
     { icon: "⌛️", text: "Time management" },
   ],
   Hard: [
-    { icon: "📝", text: "HTML" },
-    { icon: "🎨", text: "CSS" },
-    { icon: "📈", text: "GIT" },
-    { icon: "💻", text: "JavaScript" },
-    { icon: "ʦ", text: "TypeScript" },
-    { icon: "🚀", text: "React" },
+    { icon: "/images/icons/html-5.png", text: "HTML" },
+    { icon: "/images/icons/css.png", text: "CSS" },
+    { icon: "/images/icons/git_logo.png", text: "GIT" },
+    { icon: "/images/icons/react.png", text: "React" },
+    { icon: "/images/icons/nextjs.png", text: "Nextjs" },
+    { icon: "/images/icons/javascript.jpg", text: "JavaScript" },
+    { icon: "/images/icons/typescript.png", text: "TypeScript" },
   ],
 };
 

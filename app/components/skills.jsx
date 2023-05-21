@@ -1,6 +1,6 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
-
 
 const Skills = ({ data }) => {
   const [activeTab, setActiveTab] = useState("Soft");
@@ -23,19 +23,21 @@ const Skills = ({ data }) => {
       ))}
     </div>
   );
+
   const content = (
     <ul
-      className={` list-none py-4 gap-2 ${
+      className={`list-none py-4 gap-2 ${
         activeTab === "Soft" ? "justify-start" : "justify-end"
       }`}
     >
       {data[activeTab].map(({ icon, text }) => (
-        <li key={text} className="skill">
-          <span> {icon}</span> {text}
+        <li key={text} className="skill flex flex-row">
+          <span>{activeTab === "Hard" ? <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> : icon}</span> {text}
         </li>
       ))}
     </ul>
   );
+
   return (
     <div>
       {tabs}
@@ -45,3 +47,4 @@ const Skills = ({ data }) => {
 };
 
 export default Skills;
+
