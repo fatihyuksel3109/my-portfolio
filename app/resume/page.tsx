@@ -9,15 +9,7 @@ import {
 import Image from "next/image";
 
 
-type ResumeProps = {
-  title : string;
-  experiences: {
-    role: string;
-    description: string;
-  }[];
-};
-
-const Page = ({title, experiences}: ResumeProps) => {
+export default function Page() {
   return (
     <div>
       <section className="flex flex-col sm:flex-row">
@@ -59,4 +51,4 @@ const Page = ({title, experiences}: ResumeProps) => {
   );
 };
 
-export default Page;
+
