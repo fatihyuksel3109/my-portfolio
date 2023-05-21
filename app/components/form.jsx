@@ -25,7 +25,7 @@ const ContactForm = () => {
           setTimeout(() => {
             setShowModal(false); // Hide the modal after 2 seconds
             window.location.href = "/"; // Redirect the user to the home page
-          }, 2000);
+          }, 1500);
         },
         (error) => {
           console.log(error.text);
@@ -44,7 +44,7 @@ const ContactForm = () => {
               height={20}
               alt="tick-icon"
             />
-            <p className="modal-message">Email is sent.</p>
+            <p className="modal-message">Email has been successfully sent.</p>
           </div>
         </div>
       )}
