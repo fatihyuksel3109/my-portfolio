@@ -1,22 +1,22 @@
 export const pages = [
   {
     id: 1,
-    label: "About Me",
+    label: "Home",
     link: "/",
   },
   {
     id: 2,
-    label: "My Resume",
+    label: "Resume",
     link: "/resume",
   },
   {
     id: 3,
-    label: "My Projects",
+    label: "Projects",
     link: "/my-projects",
   },
   {
     id: 4,
-    label: "Contact Me",
+    label: "Contact",
     link: "/contact-me",
   },
 ];
@@ -73,7 +73,7 @@ export const experienceData = {
     {
       role: "Product Manager, TAF (2014-2018)",
       description:
-        "As a Product Manager at TAF, I spearheaded the development of various products from ideation to launch. Collaborating with cross-functional teams, including designers, developers, and marketing professionals, I translated market research insights into viable product strategies. Defining product requirements and creating detailed roadmaps were crucial aspects of my role. Prioritizing features and managing agile development processes ensured timely delivery. I conducted user testing and gathered feedback to continuously improve the products. Working closely with stakeholders, I defined go-to-market strategies and supported product adoption through effective communication and training. Monitoring product performance and conducting data analysis enabled data-driven decision-making for future iterations.",
+     " As a Public Services Administrator, I supported operational effectiveness and personnel welfare. I managed personnel support, logistics, and facilities, collaborating with personnel and external stakeholders. I coordinated deployments, managed records, and provided assistance to personnel and their families. Additionally, I oversaw logistics, including inventory management and supply chain coordination. I played a crucial role in maintaining facilities.As a Public Services Administrator, I gained valuable soft skills that have shaped my professional growth. These skills include strong communication, adaptability, problem-solving, attention to detail, teamwork and collaboration, organizational skills, leadership, resilience, confidentiality and trustworthiness, and customer service.",
       current: false,
     },
   ],

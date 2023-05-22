@@ -34,7 +34,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="mx-auto max-w-2xl p-4 mt-8 mb-20 flex sm:flex-row flex-col bg-grey">
+    <div className="mx-auto max-w-2xl p-5 mt-10 mb-20 flex sm:flex-row flex-col shadow-lg bg-blue-light">
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content animation show">
@@ -68,7 +68,7 @@ const ContactForm = () => {
             <label htmlFor="name"></label>
             <input
               name="name"
-              className="p-1 bg-grey"
+              className="p-1 bg-blue-light"
               required
               type="text"
               id="name"
@@ -79,7 +79,7 @@ const ContactForm = () => {
             <label htmlFor="lastname"></label>
             <input
               name="lastname"
-              className="p-1 bg-grey"
+              className="p-1 bg-blue-light"
               required
               type="text"
               id="lastname"
@@ -90,7 +90,7 @@ const ContactForm = () => {
             <label htmlFor="email"></label>
             <input
               name="email"
-              className="p-1 bg-grey"
+              className="p-1 bg-blue-light"
               required
               type="email"
               id="email"
@@ -101,7 +101,7 @@ const ContactForm = () => {
           <div className=" p-1">
             <textarea
               required
-              className="w-full bg-grey"
+              className="w-full bg-blue-light"
               name="message"
               rows={6}
               placeholder="Please Enter Your Message..."
