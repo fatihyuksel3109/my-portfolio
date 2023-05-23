@@ -59,6 +59,28 @@ module.exports = {
 			flexBasis: {
 				"4/5": "66%",
 			},
+			keyframes: {
+				typing: {
+				  "0%": {
+					width: "0%",
+					visibility: "hidden"
+				  },
+				  "50%": {
+					width: "50%"
+				  }  
+				},
+				blink: {
+				  "50%": {
+					borderColor: "transparent"
+				  },
+				  "50%": {
+					borderColor: "white"
+				  }  
+				}
+			  },
+			  animation: {
+				typing: "typing 2s steps(20) infinite alternate, blink .9s infinite"
+			  },
 		},
 		screens: {
 			sm: "640px",

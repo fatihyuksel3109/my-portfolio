@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { aboutMeData, skills } from "./data/data";
-import Skills from "./components/skills";
+import { aboutMeData } from "./data/data";
 
 export default function AboutMePage() {
   return (
