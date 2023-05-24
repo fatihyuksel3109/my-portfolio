@@ -73,7 +73,7 @@ export const experienceData = {
     {
       role: "Product Manager, TAF (2014-2018)",
       description:
-     " As a Public Services Administrator, I supported operational effectiveness and personnel welfare. I managed personnel support, logistics, and facilities, collaborating with personnel and external stakeholders. I coordinated deployments, managed records, and provided assistance to personnel and their families. Additionally, I oversaw logistics, including inventory management and supply chain coordination. I played a crucial role in maintaining facilities.As a Public Services Administrator, I gained valuable soft skills that have shaped my professional growth. These skills include strong communication, adaptability, problem-solving, attention to detail, teamwork and collaboration, organizational skills, leadership, resilience, confidentiality and trustworthiness, and customer service.",
+        " As a Public Services Administrator, I supported operational effectiveness and personnel welfare. I managed personnel support, logistics, and facilities, collaborating with personnel and external stakeholders. I coordinated deployments, managed records, and provided assistance to personnel and their families. Additionally, I oversaw logistics, including inventory management and supply chain coordination. I played a crucial role in maintaining facilities.As a Public Services Administrator, I gained valuable soft skills that have shaped my professional growth. These skills include strong communication, adaptability, problem-solving, attention to detail, teamwork and collaboration, organizational skills, leadership, resilience, confidentiality and trustworthiness, and customer service.",
       current: false,
     },
   ],
@@ -85,6 +85,15 @@ export const contactMeText = {
 };
 
 export const skills = {
+  Hard: [
+    { icon: "/images/icons/html-5.png", text: "HTML" },
+    { icon: "/images/icons/css.png", text: "CSS" },
+    { icon: "/images/icons/git_logo.png", text: "GIT" },
+    { icon: "/images/icons/react.png", text: "React" },
+    { icon: "/images/icons/nextjs.png", text: "Nextjs" },
+    { icon: "/images/icons/javascriptt.png", text: "JavaScript" },
+    { icon: "/images/icons/typescript.png", text: "TypeScript" },
+  ],
   Soft: [
     { icon: "👂🏼", text: "Active Listening" },
     { icon: "💬", text: "Effective Communication" },
@@ -92,15 +101,7 @@ export const skills = {
     { icon: "⽓", text: "Teamwork" },
     { icon: "💡", text: "Creative Problem Solving" },
     { icon: "⌛️", text: "Time management" },
-  ],
-  Hard: [
-    { icon: "/images/icons/html-5.png", text: "HTML" },
-    { icon: "/images/icons/css.png", text: "CSS" },
-    { icon: "/images/icons/git_logo.png", text: "GIT" },
-    { icon: "/images/icons/react.png", text: "React" },
-    { icon: "/images/icons/nextjs.png", text: "Nextjs" },
-    { icon: "/images/icons/javascript.jpg", text: "JavaScript" },
-    { icon: "/images/icons/typescript.png", text: "TypeScript" },
+    { icon: "🤔", text: "Problem Solving" },
   ],
 };
 

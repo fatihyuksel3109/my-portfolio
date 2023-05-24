@@ -3,22 +3,22 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const Skills = ({ data }) => {
-  const [activeTab, setActiveTab] = useState("Soft");
+  const [activeTab, setActiveTab] = useState("Hard");
 
-  const setBg = (active) => (activeTab === active ? "bg-grey" : "bg-white");
+  const setBg = (active) => (activeTab === active ? "bg-blue-light text-black" : "bg-white text-blue");
   const setTabsAlignment = (tab) =>
-    tab === "Soft" ? "text-left" : "text-right";
+    tab === "Hard" ? "text-left" : "text-right";
 
   const tabs = (
     <div className="flex justify-around ">
-      {["Soft", "Hard"].map((el) => (
+      {["Hard", "Soft"].map((el) => (
         <button
           key={el}
           type="button"
-          className={`btn ${setBg(el)} ${setTabsAlignment(el)} text-white text-[10]`}
+          className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
           onClick={() => setActiveTab(el)}
         >
-        <h3 className="font-semibold">{el} Skills</h3>  
+        <h3 className="">{el} Skills</h3>  
         </button>
       ))}
     </div>
