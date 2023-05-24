@@ -114,11 +114,11 @@ export const projects = [
     links: [
       {
         text: "Source Code",
-        url: "https://github.com/fatihyuksel3109/React-My-Weather-App",
+        url: "https://github.com/fatihyuksel3109/weather-app",
       },
       {
         text: "Live Site",
-        url: "https://weatherapp.fatihyuksel.net",
+        url: "https://fatihyuksel3109.github.io/weather-app/",
       },
     ],
   },
@@ -135,7 +135,7 @@ export const projects = [
       },
       {
         text: "Live Site",
-        url: "https://turkishkitchen.fatihyuksel.net",
+        url: "https://fatihyuksel3109.github.io/turkish-kitchen/",
       },
     ],
   },
@@ -152,7 +152,7 @@ export const projects = [
       },
       {
         text: "Live Site",
-        url: "https://todo-list-app.fatihyuksel.net",
+        url: "https://fatihyuksel3109.github.io/react-todo-list/",
       },
     ],
   },
