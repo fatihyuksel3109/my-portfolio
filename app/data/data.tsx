@@ -107,6 +107,23 @@ export const skills = {
 
 export const projects = [
   {
+    title: "Menu App",
+    body1:
+      "A user-friendly mobile application designed to revolutionize your dining experience. The Menu App offers an extensive range of features. Whether you're a food enthusiast, a frequent diner, or simply looking for a new culinary adventure, the Menu App is your go-to companion.",
+    body2: "Technologies used: NextJS, TypeScript, Tailwind CSS",
+    image: "menu-app.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/fatihyuksel3109/menu-app",
+      },
+      {
+        text: "Live Site",
+        url: "https://menu-app-orcin.vercel.app/",
+      },
+    ],
+  },
+  {
     title: "Weather App",
     body1:
       "A UI friendly web application designed to provide accurate and up-to-date weather forecasts for any desired location. With WeatherApp, users can easily access detailed weather information for their chosen city, including the current conditions and forecasts for the upcoming days.",
