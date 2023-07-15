@@ -124,6 +124,23 @@ export const projects = [
     ],
   },
   {
+    title: "Car Rent",
+    body1:
+      "A user friendly website designed to revolutionize your travel experience. DriveEasy offers an extensive range of features and services to cater to all your transportation needs. Whether you're an avid traveler, a frequent commuter, or simply looking for a convenient way to explore new destinations, DriveEasy is your go-to companion.",
+    body2: "Technologies used: NextJS, TypeScript, Tailwind CSS",
+    image: "car-rent.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/fatihyuksel3109/car-rent",
+      },
+      {
+        text: "Live Site",
+        url: "https://car-rent-lemon.vercel.app/",
+      },
+    ],
+  },
+  {
     title: "Weather App",
     body1:
       "A UI friendly web application designed to provide accurate and up-to-date weather forecasts for any desired location. With WeatherApp, users can easily access detailed weather information for their chosen city, including the current conditions and forecasts for the upcoming days.",
