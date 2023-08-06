@@ -59,15 +59,15 @@ export const experienceData = {
   title: "Professional Experience",
   experiences: [
     {
-      role: "Front-End Developer, Freelance (2022-Present)",
+      role: "Front-End Developer, Hogarth (2023-Present)",
       description:
-        "As a freelance Front-End Developer, I have been responsible for designing and implementing custom front-end solutions for various clients. Leveraging my expertise in ReactJS and other modern web technologies, I collaborate closely with clients to understand their requirements and translate them into functional user interfaces. I design responsive and intuitive UI components, ensuring seamless user experiences across different devices and browsers. Additionally, I implement state management using Redux and handle routing with React Router. Thorough testing and debugging are integral parts of my workflow to maintain code quality and optimize performance. By delivering projects within deadlines, I provide ongoing support and maintenance to ensure client satisfaction.",
+        "Working at Hogarth as a Front-End Developer has been an enriching experience, where I've had the opportunity to apply my skills in HTML, CSS, and JavaScript to create unique and tailored front-end solutions for a diverse range of clients. This role has allowed me to collaborate closely with other teams, such as designers, to deliver exceptional user interfaces that meet the clients' specific requirements and expectations.",
       current: true,
     },
-    {
-      role: "Real Estate Agent, Esra Real Estate (2018-2022)",
+     {
+      role: "Front-End Developer, Hogarth (2022-2023)",
       description:
-        "During my tenure as a Real Estate Agent at Esra Real Estate, I played a vital role in assisting clients with their property needs. I provided comprehensive guidance and support throughout the buying, selling, and renting processes. To facilitate effective decision-making, I conducted extensive market research and analysis, enabling clients to make informed choices. A key aspect of my role was building and maintaining strong relationships with clients, ensuring their satisfaction throughout the real estate transactions. I created impactful marketing materials and property listings to effectively showcase properties to potential buyers and renters. Negotiating contracts and coordinating property viewings were additional responsibilities, while also utilizing online platforms and tools to streamline property management tasks and enhance customer experiences.",
+        "As a freelance Front-End Developer, I have been responsible for designing and implementing custom front-end solutions for various clients. Leveraging my expertise in ReactJS and other modern web technologies, I collaborate closely with clients to understand their requirements and translate them into functional user interfaces. I design responsive and intuitive UI components, ensuring seamless user experiences across different devices and browsers. Additionally, I implement state management using Redux and handle routing with React Router. Thorough testing and debugging are integral parts of my workflow to maintain code quality and optimize performance. By delivering projects within deadlines, I provide ongoing support and maintenance to ensure client satisfaction.",
       current: false,
     },
     {
