@@ -59,23 +59,29 @@ export const experienceData = {
   title: "Professional Experience",
   experiences: [
     {
-      role: "Front-End Developer, Hogarth WW (2023-Present)",
+      role: "Front-End Developer, Hogarth WW (2023 July - Present)",
       description:
         "Working at Hogarth as a Front-End Developer has been an enriching experience, where I've had the opportunity to apply my skills in HTML, CSS, and JavaScript to create unique and tailored front-end solutions for a diverse range of clients. This role has allowed me to collaborate closely with other teams, such as designers, to deliver exceptional user interfaces that meet the clients' specific requirements and expectations.",
       current: true,
     },
-     {
-      role: "Front-End Developer, Freelance (2022-2023)",
-      description:
-        "As a freelance Front-End Developer, I have been responsible for designing and implementing custom front-end solutions for various clients. Leveraging my expertise in ReactJS and other modern web technologies, I collaborate closely with clients to understand their requirements and translate them into functional user interfaces. I design responsive and intuitive UI components, ensuring seamless user experiences across different devices and browsers. Additionally, I implement state management using Redux and handle routing with React Router. Thorough testing and debugging are integral parts of my workflow to maintain code quality and optimize performance. By delivering projects within deadlines, I provide ongoing support and maintenance to ensure client satisfaction.",
-      current: false,
-    },
     {
-      role: "Product Manager, TAF (2014-2022)",
+     role: "Front-End Developer, NexArb (2022 Dec - 2023 June)",
+     description:
+       "As a Front-End Developer at NexArb, a company dedicated to enabling seamless buying and selling of blockchain assets and cryptocurrencies, I specialize in creating custom solutions using ReactJS, Next.js, and TypeScript.",
+     current: false,
+   },
+   {
+    role: "Front-End Developer, Freelance (2021 - 2022 )",
+    description:
+      "As a Front-End Developer, I specialize in creating custom solutions using ReactJS,                               Next.js, and TypeScript. Collaborating closely with clients, I design responsive and intuitive UI components that ensure a consistent user experience across devices and browsers.",
+    current: false,
+  },
+  {
+      role: "Product Manager, TAF (2014-2020)",
       description:
         " As a Public Services Administrator, I supported operational effectiveness and personnel welfare. I managed personnel support, logistics, and facilities, collaborating with personnel and external stakeholders. I coordinated deployments, managed records, and provided assistance to personnel and their families. Additionally, I oversaw logistics, including inventory management and supply chain coordination. I played a crucial role in maintaining facilities.As a Public Services Administrator, I gained valuable soft skills that have shaped my professional growth. These skills include strong communication, adaptability, problem-solving, attention to detail, teamwork and collaboration, organizational skills, leadership, resilience, confidentiality and trustworthiness, and customer service.",
       current: false,
-    },
+  },
   ],
 };
 
