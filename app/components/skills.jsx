@@ -6,8 +6,7 @@ const Skills = ({ data }) => {
   const [activeTab, setActiveTab] = useState("Hard");
 
   const setBg = (active) => (activeTab === active ? "bg-blue-300 text-black" : "bg-white text-blue-600");
-  const setTabsAlignment = (tab) =>
-    tab === "Hard" ? "text-left" : "text-right";
+  const setTabsAlignment = (tab) => (tab === "Hard" ? "text-left" : "text-right");
 
   const tabs = (
     <div className="flex justify-around">
@@ -24,24 +23,33 @@ const Skills = ({ data }) => {
     </div>
   );
 
-  const content = (
-    <ul
-      className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-        activeTab === "Soft" ? "opacity-100" : "opacity-100"
-      }`}
-    >
-      {data[activeTab].map(({ icon, text }) => (
-        <li key={text} className="skill flex flex-row">
-          <span>{activeTab === "Hard" ? <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> : icon}</span> {text}
-        </li>
-      ))}
-    </ul>
-  );
-
   return (
     <div>
       {tabs}
-      {content}
+      <div className="relative">
+        <ul
+          className={`list-none py-4 gap-2 transition-opacity duration-500 ${
+            activeTab === "Hard" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {data["Hard"].map(({ icon, text }) => (
+            <li key={text} className="skill flex flex-row">
+              <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> {text}
+            </li>
+          ))}
+        </ul>
+        <ul
+          className={`list-none py-4 gap-2 transition-opacity duration-500 ${
+            activeTab === "Soft" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {data["Soft"].map(({ icon, text }) => (
+            <li key={text} className="skill flex flex-row">
+              <span>{icon}</span> {text}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
