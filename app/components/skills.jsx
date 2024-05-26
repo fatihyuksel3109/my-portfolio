@@ -29,22 +29,22 @@ const Skills = ({ data }) => {
       <div className="relative">
         <ul
           className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-            activeTab === "Hard" ? "opacity-100" : "opacity-0 hidden"
+            activeTab === "Hard" ? "opacity-100" : "opacity-0"
           }`}
         >
           {data["Hard"].map(({ icon, text }) => (
-            <li key={text} className="skill flex flex-row">
-              <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> {text}
+            <li key={text} className={`skill flex flex-row ${ activeTab !== "Hard" ? "hidden" : ""} `}>
+            <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> {text}
             </li>
           ))}
         </ul>
         <ul
           className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-            activeTab === "Soft" ? "opacity-100" : "opacity-0 hidden"
+            activeTab === "Soft" ? "opacity-100" : "opacity-0"
           }`}
         >
           {data["Soft"].map(({ icon, text }) => (
-            <li key={text} className="skill flex flex-row">
+            <li key={text} className={`skill flex flex-row ${ activeTab !== "Soft" ? "hidden" : ""} `}>
               <span>{icon}</span> {text}
             </li>
           ))}
