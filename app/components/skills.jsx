@@ -29,7 +29,7 @@ const Skills = ({ data }) => {
       <div className="relative">
         <ul
           className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-            activeTab === "Hard" ? "opacity-100" : "opacity-0"
+            activeTab === "Hard" ? "opacity-100" : "opacity-0 hidden"
           }`}
         >
           {data["Hard"].map(({ icon, text }) => (
@@ -40,7 +40,7 @@ const Skills = ({ data }) => {
         </ul>
         <ul
           className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-            activeTab === "Soft" ? "opacity-100" : "opacity-0"
+            activeTab === "Soft" ? "opacity-100" : "opacity-0 hidden"
           }`}
         >
           {data["Soft"].map(({ icon, text }) => (
