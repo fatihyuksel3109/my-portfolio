@@ -27,7 +27,7 @@ const Skills = ({ data }) => {
   const content = (
     <ul
       className={`list-none py-4 gap-2 transition-opacity duration-500 ${
-        activeTab === "Soft" ? "opacity-0" : "opacity-100"
+        activeTab === "Soft" ? "opacity-100" : "opacity-100"
       }`}
     >
       {data[activeTab].map(({ icon, text }) => (
