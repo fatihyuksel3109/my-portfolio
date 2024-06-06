@@ -34,7 +34,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="cantact-form mx-auto max-w-2xl p-5 mt-10 mb-20 flex sm:flex-row flex-col shadow-lg bg-blue-light">
+    <div className="cantact-form mx-auto md:max-w-2xl p-5 mt-10 mb-20 flex sm:flex-row flex-col shadow-lg bg-blue-light">
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content animation show">
