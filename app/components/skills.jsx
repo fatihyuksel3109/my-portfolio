@@ -26,7 +26,7 @@ const Skills = ({ data }) => {
   return (
     <div>
       {tabs}
-      <div className="relative">
+      <div className="relative flex">
         <ul
           className={`list-none py-4 gap-2 transition-opacity duration-500 ${
             activeTab === "Hard" ? "opacity-100" : "opacity-0 h-0"
