@@ -108,3 +108,9 @@ section {
   font-size: 20px;
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 735px) {
+  contact-form {
+    max-width: calc(100% - 2em);
+  }
+}
