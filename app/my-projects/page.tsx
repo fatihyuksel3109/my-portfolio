@@ -7,7 +7,7 @@ const MyProjects = () => {
   return (
     <div className="flex flex-wrap p-5 mb-20">
       {projects.map((project) => (
-        <div className="flex flex-col shadow-lg shadow-black w-full lg:w-1/2 xl:w-1/4 bg-blue-light m-10" key={project.title}>
+        <div className="flex flex-col shadow-lg shadow-black w-full lg:w-2/5 xl:w-1/4 bg-blue-light m-10" key={project.title}>
           <div className="image-container">
             <Image
               src={`/images/${project.image}`}
