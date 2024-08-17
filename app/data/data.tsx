@@ -65,13 +65,13 @@ export const experienceData = {
       current: true,
     },
     {
-     role: "Front-End Developer, NexArb (2022 Dec - 2023 June)",
+     role: "Front-End Developer, NexArb (2022 - 2023 July)",
      description:
        "As a Front-End Developer at NexArb, a company focused on seamless blockchainasset and cryptocurrency transactions, I specialize in custom solutions using ReactJS, Next.js, and TypeScript. I also work with backend teams to integrate MongoDB, designing efficient data models and optimizing interactions to ensure a smooth user experience. By leveraging MongoDB, I help create scalable, high-performance applications tailored to the demands of the blockchain ecosystem.",
      current: false,
    },
    {
-    role: "Front-End Developer, Freelance (2021 - 2022 )",
+    role: "Front-End Developer, Freelance (2020 - 2022 )",
     description:
       "As a Front-End Developer, I specialize in creating custom solutions using ReactJS, Next.js, and TypeScript. Collaborating closely with clients, I design responsive and intuitive UI components that ensure a consistent user experience across devices and browsers. I also leverage Prisma as an ORM to seamlessly integrate and manage databases, enhancing the efficiency and scalability of our applications. My portfolio includes diverse projects such as e-commerce sites, booking platforms, and corporate websites, where I focus on delivering high-performance, user-friendly interfaces tailored to meet specific business needs.",
     current: false,
