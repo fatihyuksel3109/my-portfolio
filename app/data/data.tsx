@@ -34,7 +34,7 @@ export const aboutMeData = {
 export const summaryData = {
   title: "Summary",
   description:
-    "Highly skilled and experienced Front-End Developer with a keen eye for detail and a passion for creating visually stunning and highly functional websites. Proficient in HTML, CSS, and JavaScript, and well-versed in popular front-end frameworks such as ReactJS and Angular. Collaborative team player who excels in working closely with designers, back-end developers, and project managers to seamlessly integrate design and functionality. A constant learner who stays up to date with the latest trends and advancements in front-end development. Committed to delivering exceptional user experiences and contributing to the success of web projects through meticulous attention to detail and a performance-driven approach.",
+    "Highly skilled and experienced Front-End Developer with a keen eye for detail and a passion for creating visually stunning, highly functional websites and applications. Proficient in HTML, CSS, and JavaScript, with deep expertise in modern front-end frameworks such as ReactJS, Next.js, and React Native. A collaborative team player who excels in integrating design and functionality by working closely with designers, back-end developers, and project managers. Dedicated to staying at the forefront of industry trends and advancements, I am committed to delivering exceptional user experiences across web and mobile platforms. My meticulous attention to detail and performance-driven approach ensure the success of every project I undertake.",
 };
 
 export const languageData = [
@@ -67,20 +67,14 @@ export const experienceData = {
     {
      role: "Front-End Developer, NexArb (2022 Dec - 2023 June)",
      description:
-       "As a Front-End Developer at NexArb, a company dedicated to enabling seamless buying and selling of blockchain assets and cryptocurrencies, I specialize in creating custom solutions using ReactJS, Next.js, and TypeScript.",
+       "As a Front-End Developer at NexArb, a company focused on seamless blockchainasset and cryptocurrency transactions, I specialize in custom solutions using ReactJS, Next.js, and TypeScript. I also work with backend teams to integrate MongoDB, designing efficient data models and optimizing interactions to ensure a smooth user experience. By leveraging MongoDB, I help create scalable, high-performance applications tailored to the demands of the blockchain ecosystem.",
      current: false,
    },
    {
     role: "Front-End Developer, Freelance (2021 - 2022 )",
     description:
-      "As a Front-End Developer, I specialize in creating custom solutions using ReactJS,                               Next.js, and TypeScript. Collaborating closely with clients, I design responsive and intuitive UI components that ensure a consistent user experience across devices and browsers.",
+      "As a Front-End Developer, I specialize in creating custom solutions using ReactJS, Next.js, and TypeScript. Collaborating closely with clients, I design responsive and intuitive UI components that ensure a consistent user experience across devices and browsers. I also leverage Prisma as an ORM to seamlessly integrate and manage databases, enhancing the efficiency and scalability of our applications. My portfolio includes diverse projects such as e-commerce sites, booking platforms, and corporate websites, where I focus on delivering high-performance, user-friendly interfaces tailored to meet specific business needs.",
     current: false,
-  },
-  {
-      role: "Product Manager, TAF (2014-2020)",
-      description:
-        " As a Public Services Administrator, I supported operational effectiveness and personnel welfare. I managed personnel support, logistics, and facilities, collaborating with personnel and external stakeholders. I coordinated deployments, managed records, and provided assistance to personnel and their families. Additionally, I oversaw logistics, including inventory management and supply chain coordination. I played a crucial role in maintaining facilities.As a Public Services Administrator, I gained valuable soft skills that have shaped my professional growth. These skills include strong communication, adaptability, problem-solving, attention to detail, teamwork and collaboration, organizational skills, leadership, resilience, confidentiality and trustworthiness, and customer service.",
-      current: false,
   },
   ],
 };
@@ -95,7 +89,7 @@ export const skills = {
     { icon: "/images/icons/html-5.png", text: "HTML" },
     { icon: "/images/icons/css.png", text: "CSS" },
     { icon: "/images/icons/git_logo.png", text: "GIT" },
-    { icon: "/images/icons/react.png", text: "React" },
+    { icon: "/images/icons/react.png", text: "React / React Native" },
     { icon: "/images/icons/nextjs.png", text: "Nextjs" },
     { icon: "/images/icons/javascriptt.png", text: "JavaScript" },
     { icon: "/images/icons/typescript.png", text: "TypeScript" },
@@ -211,24 +205,6 @@ export const projects = [
       {
         text: "Live Site",
         url: "https://haussmannsolsresine.fr",
-      },
-    ],
-  },
-
-  {
-    title: "Pomodoro App",
-    body1:
-      "Pomodoro Timer is designed to help you manage your time effectively and boost your productivity using the popular Pomodoro Technique. With Pomodoro Timer, you'll unleash your productivity potential and conquer your tasks with ease. Seeking better time management ? This app will help you stay focused, organized, and on track. ",
-    body2: "Technologies used: HTML, CSS, and JavaScript Features.",
-    image: "pomodoro.png",
-    links: [
-      {
-        text: "Source Code",
-        url: "https://github.com/fatihyuksel3109/pomodoro-app",
-      },
-      {
-        text: "Live Site",
-        url: "https://fatihyuksel3109.github.io/pomodoro-app/",
       },
     ],
   },
