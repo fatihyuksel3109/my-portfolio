@@ -175,23 +175,6 @@ export const projects = [
     ],
   },
   {
-    title: "Todo List App",
-    body1:
-      "The Todo List App is a straightforward application that helps users manage their tasks effectively. With this app, users can create a list of tasks, edit existing tasks, mark them as complete, and delete tasks when they are no longer needed. Application also gives the information of the number of the tasks.",
-    body2: "Technologies used: HTML, CSS, JavaScript and React.",
-    image: "todolist.png",
-    links: [
-      {
-        text: "Source Code",
-        url: "https://github.com/fatihyuksel3109/react-todo-list",
-      },
-      {
-        text: "Live Site",
-        url: "https://fatihyuksel3109.github.io/react-todo-list/",
-      },
-    ],
-  },
-  {
     title: "Haussmann Sols Résine",
     body1:
       "The Flooring Company website is a comprehensive online platform designed to cater to the needs of individuals and businesses seeking high-quality flooring solutions. With a focus on aesthetics, functionality, and customer satisfaction, the website offers a range of features to enhance the user experience.",
