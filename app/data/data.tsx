@@ -61,7 +61,7 @@ export const experienceData = {
     {
       role: "Front-End Developer, Hogarth WW (2023 July - Present)",
       description:
-        "Working at Hogarth as a Front-End Developer has been an enriching experience, where I've had the opportunity to apply my skills in HTML, CSS, and JavaScript to create unique and tailored front-end solutions for a diverse range of clients. This role has allowed me to collaborate closely with other teams, such as designers, to deliver exceptional user interfaces that meet the clients' specific requirements and expectations.",
+        "Working at Hogarth as a Front-End Developer has been an enriching experience where I utilized my skills in HTML, CSS, and JavaScript to craft unique and tailored front-end solutions for a diverse range of clients. This role allowed me to closely collaborate with designers and cross-functional teams, ensuring the delivery of pixel-perfect user interfaces that met and often exceeded client expectations. I focused on creating responsive, user-friendly interfaces that provided an optimal experience across various devices and platforms. My efforts were instrumental in bridging the gap between design and technical implementation, resulting in final products that were both visually appealing and highly functional.",
       current: true,
     },
     {
