@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  max-width: 1260px;
+}
+
 @layer base {
   h1,
   h2,
