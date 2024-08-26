@@ -7,7 +7,7 @@ type FooterProps = {
 
 export default function Footer({ contactMeLinks }: FooterProps) {
   return (
-    <footer className="w-full bg-white shadow-footer mt-20 py-4 fixed bottom-0">
+    <footer className="max-w-7xl bg-white shadow-footer mt-20 py-4 fixed bottom-0">
       <div className="flex items-center justify-center gap-1">
         <a href={contactMeLinks[0]} target="_blank" aria-label="E-mail">
           <Envelope className="icons_contactme" />
