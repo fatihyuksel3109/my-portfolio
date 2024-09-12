@@ -89,6 +89,7 @@ export const skills = {
     { icon: "/images/icons/html-5.png", text: "HTML" },
     { icon: "/images/icons/css.png", text: "CSS" },
     { icon: "/images/icons/git_logo.png", text: "GIT" },
+    { icon: "/images/icons/svn-icon.png", text: "SVN" },
     { icon: "/images/icons/react.png", text: "React / React Native" },
     { icon: "/images/icons/nextjs.png", text: "Nextjs" },
     { icon: "/images/icons/javascriptt.png", text: "JavaScript" },
