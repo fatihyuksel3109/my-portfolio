@@ -33,8 +33,8 @@ const Skills = ({ data }) => {
           }`}
         >
           {data["Hard"].map(({ icon, text }) => (
-            <li key={text} className={`skill flex flex-row ${ activeTab !== "Hard" ? "hidden" : ""} `}>
-            <Image className="mr-2" width={24} height={24} src={icon} alt={text} /> {text}
+            <li key={text} className={`skill flex flex-row items-center ${ activeTab !== "Hard" ? "hidden" : ""} `}>
+            <Image className="mr-2" width={24} height={21} src={icon} alt={text} /> {text}
             </li>
           ))}
         </ul>
@@ -44,7 +44,7 @@ const Skills = ({ data }) => {
           }`}
         >
           {data["Soft"].map(({ icon, text }) => (
-            <li key={text} className={`skill flex flex-row ${ activeTab !== "Soft" ? "hidden" : ""} `}>
+            <li key={text} className={`skill flex flex-row items-center ${ activeTab !== "Soft" ? "hidden" : ""} `}>
               <span>{icon}</span> {text}
             </li>
           ))}
