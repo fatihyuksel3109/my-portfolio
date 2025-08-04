@@ -59,31 +59,34 @@ export const experienceData = {
   title: "Professional Experience",
   experiences: [
     {
-      role: "Software Developer, Hogarth WW (Jan 2023 - Present)",
-      description:
-        "At Hogarth, I developed tailored front-end solutions using HTML, CSS, and JavaScript, collaborating with designers and cross-functional teams to deliver pixel-perfect, responsive interfaces. I ensured seamless design-to-code implementation, creating visually appealing and highly functional user experiences across various devices.",
+      role: "Software Developer, Hogarth WW (Jan 2022 - Present)",
+      description: `Contributed to global-scale digital production workflows by developing high-quality, pixel-perfect, and fully responsive user interfaces using HTML, CSS, JavaScript, and React.js/Next.js.
+Worked in close collaboration with designers, QA, and localization teams to deliver accurate, design-consistent experiences across all screen sizes and platforms.
+Built dynamic UI components and frontend logic, improving interactivity, user engagement, and site performance.
+Integrated with Node.js and MongoDB backends to support content management and internal admin tools.
+Developed and maintained Python automation scripts to optimize localization processes, reducing manual effort and increasing operational efficiency.`,
       current: true,
     },
     {
-     role: "Software Developer, NexArb (Jan 2022 - Dec 2022)",
-     description:
-       "As a Front-End Developer at NexArb, a company focused on seamless blockchainasset and cryptocurrency transactions, I specialize in custom solutions using ReactJS, Next.js, and TypeScript. I also work with backend teams to integrate MongoDB, designing efficient data models and optimizing interactions to ensure a smooth user experience. By leveraging MongoDB, I help create scalable, high-performance applications tailored to the demands of the blockchain ecosystem.",
-     current: false,
-   },
-   {
-    role: "Front-End Developer, Fanus (Jan 2020 - Dec 2021)",
-    description:
-      "Worked as a Full-Stack Developer (contractor) at Mobilab Solutions, Germany, contributing to energy sector projects. Served as a Frontend Developer at Ekip.co (UK) and Anywai (Switzerland), participating in a fintech project. Part of a 7-person frontend team, utilizing React, TypeScript, and Next.js to develop fintech, stock market, and cryptocurrency solutions tailored to client needs.",
-    current: false,
-  },
-   {
-    role: "Front-End Developer, Freelance (Jan 2019 - Jan 2020)",
-    description:
-      "As a Front-End Developer, I specialize in creating custom solutions using ReactJS, Next.js, and TypeScript. Collaborating closely with clients, I design responsive and intuitive UI components that ensure a consistent user experience across devices and browsers. I also leverage Prisma as an ORM to seamlessly integrate and manage databases, enhancing the efficiency and scalability of our applications. My portfolio includes diverse projects such as e-commerce sites, booking platforms, and corporate websites, where I focus on delivering high-performance, user-friendly interfaces tailored to meet specific business needs.",
-    current: false,
-  },
+      role: "Software Developer, Creosafe (Jan 2020 - Dec 2021)",
+      description: `Utilized React and TypeScript to implement technical enhancements and new features, significantly improving application speed and overall user experience.
+Created reusable and modular UI components, promoting consistency and maintainability across the front-end codebase.
+Developed essential application systems such as user authentication and multi-filter search logic, ensuring secure access and advanced user interaction capabilities.
+Employed Redux Toolkit for efficient global state management, enabling smoother data flow and simplified debugging throughout the application.
+Integrated sessionStorage-based data handling to maintain session persistence and optimize performance during user activity.`,
+      current: false,
+    },
+    {
+      role: "Front-End Developer, Fanus (Sep 2017 - Dec 2019)",
+      description: `Delivered custom web applications for multiple international clients in the fintech and energy sectors, working in agile teams across time zones.
+At Mobilab Solutions (Germany), contributed as a Full-Stack Developer by building backend APIs with Express.js, managing data with PostgreSQL, and developing intuitive frontends.
+At Ekip.co (UK) and Anywai (Switzerland), developed real-time crypto dashboards using React.js, Next.js, and TypeScript, focused on live stock market data visualization.
+Managed global application state with Redux and Zustand, ensuring smooth and predictable user interactions.
+Delivered responsive, theme-consistent designs using Ant Design components and customized styles.`,
+      current: false,
+    },
   ],
-};
+}
 
 export const contactMeText = {
   title: "Hello there! ",
