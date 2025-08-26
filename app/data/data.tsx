@@ -34,7 +34,7 @@ export const aboutMeData = {
 export const summaryData = {
   title: "Summary",
   description:
-    "Highly skilled and experienced Front-End Developer with a keen eye for detail and a passion for creating visually stunning, highly functional websites and applications. Proficient in HTML, CSS, and JavaScript, with deep expertise in modern front-end frameworks such as ReactJS, Next.js, and React Native. A collaborative team player who excels in integrating design and functionality by working closely with designers, back-end developers, and project managers. Dedicated to staying at the forefront of industry trends and advancements, I am committed to delivering exceptional user experiences across web and mobile platforms. My meticulous attention to detail and performance-driven approach ensure the success of every project I undertake.",
+    "Highly skilled and experienced Software Developer with a keen eye for detail and a passion for creating visually stunning, highly functional websites and applications. Proficient in HTML, CSS, and JavaScript, with deep expertise in modern front-end frameworks such as ReactJS, Next.js, and React Native, as well as strong back-end development experience with Node.js. A collaborative team player who excels in integrating design and functionality by working closely with designers, back-end developers, and project managers. Dedicated to staying at the forefront of industry trends and advancements, I am committed to delivering exceptional user experiences across web and mobile platforms. My meticulous attention to detail and performance-driven approach ensure the success of every project I undertake.",
 };
 
 export const languageData = [
